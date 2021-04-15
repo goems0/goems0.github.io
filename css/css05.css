@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(248, 242, 233);
+}
+h1 {
+    padding: 30px;
+    font-size: 90px;
+    background-color: #ffffff;
+    opacity: 0.9;
+}
+* {
+    text-align: center;
+}
