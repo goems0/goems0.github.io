@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>hw06_7</title>
+    <style>
+        table {
+            width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        tr {
+            display: block;
+            border-bottom: 1px solid;
+            border-color: gray;
+            padding: 5px;
+        }
+
+        td {
+            padding: 0px 10px;
+        }
+
+        textarea {
+            text-align: left;
+        }
+
+        h5 {
+            width: 80px;
+            background-color: rgb(43, 43, 43);
+            color: rgb(240, 240, 240);
+            padding: 10px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+    <link rel="stylesheet" href="./../../css/css06.css">
+</head>
+
+<body>
+    <div>
+        <h1><a href="./hw06.html">In Nature</a></h1>
+    </div>
+    <center>
+        <table>
+            <caption style="border-bottom: 1px solid gray; padding: 10px; font-size: 25px;">Q&A</caption>
+            <tr>
+                <td>제목</td>
+                <td>
+                    <form>
+                        <select name="Q&A" id="Q&A">
+                            <option value="1">제품문의</option>
+                            <option value="2">주문문의</option>
+                            <option value="3">베송문의</option>
+                            <option value="4">취소/교환/반품문의</option>
+                            <option value="5">기타문의</option>
+                        </select>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>작성자</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr style="height: 300px;">
+                <td>내용</td>
+                <td>
+                    <textarea cols="57" rows="19"></textarea>
+                </td>
+            </tr>
+        </table>
+
+        <div>
+            <a href="">
+                <h5>제출하기</h5>
+            </a>
+        </div>
+
+    </center>
+</body>
+
+</html>
