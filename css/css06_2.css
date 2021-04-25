@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+
+}
+
+#head {
+    background-color: #ffffff;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 200px;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(26, 87, 70);
+}
+
+#logo {
+    float: left;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+#login {
+    float: right;
+    margin: 40px 20px 0px 0px;
+}
+
+li {
+    display: inline;
+}
+
+#menu {
+    clear: both;
+    background-color: rgb(250, 246, 207);
+    height: 20px;
+}
+
+ul {
+    text-align: center;
+    padding: 10px;
+}
+
+.item {
+    padding: 0px 60px;
+}
+
+.item a:hover {
+    border-bottom: 2px solid rgb(247, 163, 163);
+    color: rgb(190, 185, 185);
+}
+
+img {
+    width: 500px;
+    margin-top: 50px;
+}
+td {
+    border-bottom: 1px solid gray;
+    text-align: center;
+    padding: 20px;
+    line-height: 30px;
+}
+.tab {
+    width: 500px;
+    margin: 50px 50px 0px;
+}
+p {
+    font-size: 10px;
+    color: gray;
+}
+h5 {
+     margin-right: auto;
+     margin-left: auto;
+     width: 100px;
+    text-align: center;
+    padding: 10px;
+}
+.tab2 {
+     margin-bottom: 50px;
+}
+ .tab2 td {
+      border: none;
+  }
+#button {
+    background-color: rgb(0, 0, 0);
+    color: rgb(240, 240, 240);
+}
+#button2 {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(184, 184, 184);
+    color: black;
+}
