@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>hw07_2</title>
+    <style>
+        p.join {
+            font-size: 30px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 100px 0px 50px;
+            font-weight: 700;
+        }
+
+        input {
+            padding: 3px;
+        }
+
+        .notice {
+            border-top: 1px solid rgb(185, 185, 185);
+            width: 700px;
+            margin: 0px;
+        }
+
+        .gray {
+            background-color: rgb(243, 243, 243);
+        }
+
+        td {
+            color: rgb(66, 66, 66);
+            padding: 15px;
+            font-size: 13px;
+            border-bottom: 1px solid rgb(185, 185, 185);
+        }
+
+        td a {
+            color: rgb(54, 54, 54) !important;
+        }
+
+        #join {
+            margin: 20px;
+            border-style: none;
+            background-color: black;
+            width: 100px;
+            padding: 10px;
+            color: #ffffff;
+            font-weight: 600;
+        }
+
+        #join:hover {
+            background-color: rgb(68, 68, 68);
+        }
+    </style>
+    <link type="text/css" rel="stylesheet" href="./css/css07.css">
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <h1><a href="./hw07.html">In Nature</a></h1>
+        </div>
+
+        <div id="login">
+            <li><a id="log" href="./hw07_1.html">Login</a></li>
+            <li>&nbsp;&nbsp;</li>
+            <li><a id="log" href="./hw07_2.html">Join</a></li>
+        </div>
+
+        <ul id="menu">
+            <li class="item"><a href="./hw07_3.html">About</a></li>
+            <li class="item"><a href="./hw07_4.html">Products</a></li>
+            <li class="item"><a href="./hw07_5.html">Notice</a></li>
+            <li class="item"><a href="./hw07_6.html">Q&A</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <center>
+            <table class="notice">
+                <caption>
+                    <p class="join">Join</p>
+                </caption>
+
+                <tr>
+                    <td class="gray">아이디</td>
+                    <td><input type="text" name="ID" size="30" placeholder="아이디" required></td>
+                </tr>
+
+                <tr>
+                    <td class="gray">비밀번호</td>
+                    <td><input type="password" name="PW" size="30" placeholder="비밀번호" required></td>
+                </tr>
+
+                <tr>
+                    <td class="gray">비밀번호 확인</td>
+                    <td><input type="password" name="PW" size="30" placeholder="비밀번호 확인" required></td>
+                </tr>
+
+                <tr>
+                    <td class="gray">이름</td>
+                    <td><input type="text" size="30" required></td>
+                </tr>
+
+                <tr>
+                    <td class="gray">휴대전화</td>
+                    <td><select name="phone" id="">
+                            <option value="1" selected>010</option>
+                            <option value="2">011</option>
+                            <option value="3">016</option>
+                            <option value="4">017</option>
+                            <option value="5">018</option>
+                            <option value="6">019</option>
+                        </select>
+                        - <input type="text" name="phone" size="5">
+                        - <input type="text" name="phone" size="5">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="gray">이메일</td>
+                    <td><input type="email" name="email" size="30" required></td>
+                </tr>
+
+            </table>
+            <input type="submit" id="join" value="회원가입">
+        </center>
+    </main>
+</body>
+
+</html>

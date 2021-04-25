@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+}
+
+h1 {
+    color: rgb(26, 87, 70);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(26, 87, 70);
+}
+header:hover {
+    background-color: #ffffff;
+    transition: 0.5s;
+}
+
+#logo {
+    float: left;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+}
+
+#login {
+    float: right;
+    margin: 40px 20px 0px 0px;
+}
+
+#menu {
+    clear: both;
+    height: 20px;
+}
+
+ul {
+    text-align: center;
+    padding: 10px;
+}
+
+ul:hover {
+    background-color: rgb(250, 246, 207);
+    transition: 0.3s;
+}
+
+.item {
+    padding: 0px 80px;
+}
+
+.item a:hover {
+    border-bottom: 2px solid rgb(247, 163, 163);
+    color: rgb(190, 185, 185);
+    transition: 0.2s;
+}
